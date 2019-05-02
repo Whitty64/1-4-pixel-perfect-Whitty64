@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+  display:inline-block;
+}
+.icons {
+  
+}
+img {
+  width: 100%;
+}
+main {
+  width: 50%;
+  display: inline-block;
+}
+aside {
+  width: 25%;
+  display: inline-block;
+}
+.logo {
+  width:200px;
+  display: block;
+}
+.fatfooter {
+  display: inline-block;
+}
+.footimg {
+  width: 10%
+}
