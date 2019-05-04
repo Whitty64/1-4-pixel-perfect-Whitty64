@@ -1,52 +1,63 @@
 * {
   box-sizing: border-box;
 }
+
 img {
   width: 100%;
 }
+
 body {
   font-family: Lato;
   background-color: #f4f4f4;
 }
+
 body>nav::after {
- content: '';
- display: block;
- clear: both;
+  content: '';
+  display: block;
+  clear: both;
 }
+
 nav {
-  border-bottom: solid 1px #ccc ;
+  border-bottom: solid 1px #ccc;
   background-color: #fafafa;
   padding: 0px 0px 10px 0px;
 }
+
 .menu {
   margin: 20px 100px 0 100px;
   display: inline-block;
 }
+
 li {
   font-size: 12px;
   list-style: none;
-  display:inline-block;
+  display: inline-block;
   padding-left: 13px;
   padding-right: 13px;
 }
-li > a {
-  color:grey;
+
+li>a {
+  color: grey;
   text-decoration: none;
 }
+
 .icons {
   float: right;
   margin-right: 10%
 }
+
 .icons li {
   padding: 5px;
 }
+
 .notworkinlogo {
-  margin:0 auto;
+  margin: 0 auto;
   padding-top: 70px;
   padding-bottom: 70px;
-  width:175px;
+  width: 175px;
   display: block;
 }
+
 /*.logo {
   margin:0 auto;
   padding-top: 70px;
@@ -54,12 +65,12 @@ li > a {
   width:175px;
   display: block;
 } */
-
- main {
+main {
   display: inline-block;
-  width:50%;
+  width: 50%;
   margin-left: 10%;
 }
+
 .treehouse {
   background-color: #fff;
   border: solid 2px #bdbdbd;
@@ -69,109 +80,175 @@ li > a {
   box-shadow: 0 0 5px #999;
   color: grey;
 }
-.smalltitle{
+
+.smalltitle {
   padding-top: 30px;
   font-size: 12px;
   color: #da5537;
 }
+
 h2 {
   font-weight: 700;
   font-size: 20px;
   color: black;
 }
+
 .info {
   text-align: left;
   padding: 0px 30px 30px 30px;
   margin: 0;
   line-height: 1.5;
 }
+
 .butt {
   display: block;
   border: solid #da5537 1.25px;
-  padding:10px;
+  padding: 10px;
   width: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 40px;
   text-decoration: none;
-  color:#da5537
+  color: #da5537;
 }
+
 .iconstwo {
   display: inline-block;
   padding-left: 290px;
 }
+
 .iconstwo li {
   padding: 5px;
 }
+
 .bottombar {
-  width:90%;
-  margin:0 auto;
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
   border-top: 1.25px solid #ccc;
 }
+
 aside {
   width: 28%;
   display: inline-block;
   float: right;
   margin-right: 10%;
 }
-.contentright{
-  margin-bottom: 100px;
+
+.contentright {
+  margin-bottom: 50px;
   background-color: white;
   box-shadow: 0 0 5px #999;
+  display: inline-block;
 }
+
 .test {
   height: 550px;
 }
+
 .dunder {
-  background-image:url("https://postmediacanoe.files.wordpress.com/2018/09/woods1000getty.jpg");
+  background-image: url("images/rockywall2.jpg");
   width: 100%;
   height: 40%;
   position: relative;
 }
+
 .monkey {
-  width:50%;
+  width: 50%;
   border-radius: 50%;
   border: white solid 8px;
   position: absolute;
   left: 25%;
   top: 50%;
 }
-.george{
-  padding-top: 70px;
+
+.george {
+  padding-top: 80px;
   text-align: center;
 }
+
 .monkeyinfo {
   color: grey;
   text-align: center;
-  margin:0 30px 0 30px;
+  margin: 0 30px 0 30px;
   line-height: 1.5;
-
 }
-.circleicons{
+
+.iconscircles {
+  text-align: center;
+  padding: 0;
+}
+
+.iconscircles li {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.7em;
+  text-align: center;
+}
+
+/* .circleicons{
   text-align: center;
   color:grey;
   margin: 20px 0 20px 0;
-}
-.icon-background{
+} */
+/* .icon-background{
   color:white;
   border: solid 2px #ccc;
   border-radius: 50%;
+} */
+.pop {
+  text-align: center;
+  padding-top: 20px;
 }
+
+.threepics {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.threepics p {
+  border-bottom: solid #ccc 1px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+p.noborder {
+  border-style: none;
+}
+
+/* .threepics p:not(:last-child) {
+  border-bottom: none;
+ } */
 .instagram {
   height: 600px;
 }
+div.fruit {
+  display: inline-block;
+}
+.fruit > img {
+  width :100px;
+}
+.smallpost {
+}
+
 .dwight > img {
   display: inline-block;
-  justify-content: center;
   width: 150px;
 }
-.fatfooter {
-  display: inline-flex;
-  flex-direction: row;
+
+.follow {
+  display: inline-block;
+  text-align: center;
 }
-.footimg > img {
+
+.fatfooter {
+  display: inline-block;
+  text-align: center;
+}
+
+.footimg>img {
   width: 12%;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
