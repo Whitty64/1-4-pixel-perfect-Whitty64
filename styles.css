@@ -19,7 +19,7 @@ body>nav::after {
 
 nav {
   border-bottom: solid 1px #ccc;
-  background-color: #fafafa;
+  background-color: white;
   padding: 0px 0px 10px 0px;
 }
 
@@ -205,9 +205,11 @@ aside {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .threepics img {
   width:
 }
+
 .threepics p {
   border-bottom: solid #ccc 1px;
   padding-bottom: 20px;
@@ -221,7 +223,6 @@ p.noborder {
 /* .threepics p:not(:last-child) {
   border-bottom: none;
  } */
-
 .smallpost img {
   width: 100px;
   margin-top: 5px;
@@ -229,52 +230,93 @@ p.noborder {
   margin-bottom: 10px;
   margin-left: 20px;
 }
+
 /* why when I increase margin left or bottom above 25px it flips out? */
 .smallpost {
-  padding:10px 0px 0px 0px;
+  padding: 10px 0px 0px 0px;
   border-bottom: solid 1px #ccc;
 }
+
 .why {
   display: inline-block;
   vertical-align: top;
   padding-right: 77px;
 }
-.instagram{
+
+.instagram {
   text-align: center;
   padding-top: 30px;
   font-size: 20px;
 }
+
 .row {
   display: flex;
   flex-wrap: wrap;
   padding: 0 6px;
   justify-content: center;
 }
+
 /* Create two equal columns that sits next to each other */
 .column {
   flex: 50%;
   max-width: 45%;
   padding: 0px 6px 30px 6px;
-
 }
+
 .column img {
   margin-top: 6px;
   margin-bottom: 6px;
   vertical-align: middle;
+  filter: grayscale(100%);
 }
 
-.follow {
+.imurdad img {
   display: inline-block;
-  text-align: center;
+  width: 181.1px;
+  line-height: 0;
 }
 
 .fatfooter {
-  display: inline-block;
   text-align: center;
 }
 
-.footimg>img {
-  width: 12%;
+h2.follow {
+  background-color: white;
   margin: 0;
-  padding: 0;
+  padding: 20px 0;
+}
+
+footer p {
+  background-color: black;
+  color: grey;
+  margin: 0;
+  padding: 20px 0;
+}
+
+i:hover {
+  transform: scale(2);
+}
+.menu li:hover {
+  transform: scale(1.5);
+}
+
+.logo:hover{
+  transform: scale(1.5);
+  background-color: #f4f4f4;
+}
+.butt:hover{
+  border-radius: 0;
+  background-color: rgba(18, 80, 109, 0.25);
+  transform: scale(1.25) rotateZ(-2.5deg);
+}
+
+.threepics img:hover{
+  transform: scale(.85);
+}
+.monkey:hover{
+  transform: scale(.90);
+}
+
+.column img:hover{
+  filter: grayscale(0);
 }
