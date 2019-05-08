@@ -151,6 +151,8 @@ aside {
   width: 100%;
   height: 40%;
   position: relative;
+  background-size: cover;
+
 }
 
 .monkey {
@@ -207,10 +209,6 @@ aside {
   padding-right: 20px;
 }
 
-.threepics img {
-  width:
-}
-
 .threepics p {
   border-bottom: solid #ccc 1px;
   padding-bottom: 20px;
@@ -241,7 +239,7 @@ p.noborder {
 .why {
   display: inline-block;
   vertical-align: top;
-  padding-right: 77px;
+  padding-right: 70px;
 }
 
 .instagram {
@@ -273,8 +271,9 @@ p.noborder {
 
 .imurdad img {
   display: inline-block;
-  width: 181.1px;
+  width: 180px;
   line-height: 0;
+  float: left;
 }
 
 .fatfooter {
@@ -288,16 +287,16 @@ h2.follow {
   padding: 20px 0;
 }
 
-footer p {
+footer > p {
   background-color: #212121;
   color: grey;
-  margin: 0;
-  padding: 20px 0;
+  padding: 20px;
 }
 
 i:hover {
   transform: scale(2);
   transition: .5s;
+  color: rgba(18, 80, 109, 1);
 }
 .menu li:hover {
   transform: scale(1.5);
